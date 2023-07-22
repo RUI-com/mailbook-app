@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "travil-app",
+    "slug": "travil-app",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "travil-app"
+}
