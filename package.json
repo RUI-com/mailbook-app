@@ -1,15 +1,17 @@
 {
   "name": "mailbook-app",
   "version": "1.0.0",
+  "homepage":"https://RUI-com.github.io/mailbook-app",
   "main": "index.js",
-  "homepage":"https://github.com/RUI-com/mailbook-app.git",
+  
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "expo start --dev-client",
     "android": "expo run:android",
     "ios": "expo run:ios",
-    "web": "expo start --web",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "web": "expo start --web"
+    
   },
   "dependencies": {
     "@expo/webpack-config": "^18.0.1",
